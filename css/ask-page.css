@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../image/negela.jpeg");
+  background-size: 88%;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.login-btn-container {
+  display: flex;
+  gap: 15px;
+}
+
+.div-p {
+  background-image: url("../image/player.jpg");
+  height: 350px;
+  width: 300px;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.5;
+  transition: 0.5s;
+  h1 {
+    color: white;
+    position: relative;
+    top: 300px;
+    transition: 0.5s;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.div-o {
+  background-image: url("../image/pitch owner.jpg");
+  height: 350px;
+  width: 300px;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.5;
+  transition: 0.5s;
+  h1 {
+    color: white;
+    position: relative;
+    top: 10px;
+    transition: 1s;
+  }
+}
+
+.div-p:hover {
+  opacity: 1;
+  height: 400px;
+  width: 350px;
+  transition: 0.5s;
+  h1 {
+    color: white;
+    position: relative;
+    top: 230px;
+    transition: 0.5s;
+  }
+}
+
+.div-o:hover {
+  opacity: 1;
+  height: 400px;
+  width: 350px;
+  transition: 0.5s;
+  h1 {
+    color: white;
+    position: relative;
+    top: 100px;
+    transition: 0.5s;
+  }
+}
